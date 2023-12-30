@@ -81,9 +81,9 @@ private void realizarUpload() {
 
     String destinationFolder = "";
     if ("Entrada".equals(transactionType)) {
-        destinationFolder = "/home/joonie/MEGAsync/contas/" + getNomeDoAnoAtual() + "/entradas/" + getNomeDoMesAtual();
+        destinationFolder = "E:\\MEGAsync/contas/" + getNomeDoAnoAtual() + "/entradas/" + getNomeDoMesAtual();
     } else if ("Saída".equals(transactionType)) {
-        destinationFolder = "/home/joonie/MEGAsync/contas/" + getNomeDoAnoAtual() + "/saida/" + getNomeDoMesAtual();
+        destinationFolder = "E:\\MEGAsync/contas/" + getNomeDoAnoAtual() + "/saidas/" + getNomeDoMesAtual();
     }
 
     File destinationDir = new File(destinationFolder);
